@@ -1,3 +1,25 @@
+#############################################################################
+##
+## Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+##
+## This file is part of the Qt Enterprise Embedded Scripts of the Qt
+## framework.
+##
+## $QT_BEGIN_LICENSE$
+## Commercial License Usage Only
+## Licensees holding valid commercial Qt license agreements with Digia
+## with an appropriate addendum covering the Qt Enterprise Embedded Scripts,
+## may use this file in accordance with the terms contained in said license
+## agreement.
+##
+## For further information use the contact form at
+## http://qt.digia.com/contact-us.
+##
+##
+## $QT_END_LICENSE$
+##
+#############################################################################
+
 #
 # This file is your local configuration file and is where all local user settings
 # are placed. The comments in this file give some guide to the options a new user
@@ -253,7 +275,7 @@ CONF_VERSION = "1"
 
 INHERIT += "rm_work"
 
-BBMASK = "meta-ti/recipes-misc"
+BBMASK = "meta-ti/recipes-misc|meta-raspberrypi/recipes-graphics/mesa/mesa_9.2.2.bbappend"
 ACCEPT_FSL_EULA = "1"
 LICENSE_FLAGS_WHITELIST = "commercial"
 
