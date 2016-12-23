@@ -34,4 +34,4 @@ SRC_URI_append_mx6 = " \
     "
 
 SRCREV_qtwebengine = "9cc97f0c63049a8076476acc89c875c9e240abfb"
-SRCREV_chromium = "881a7672e23192eaf7e1ac2f94e086b560104f10"
+SRCREV_chromium = "b3c79e92f0a631273b639af171e59f4c367ae02e"
